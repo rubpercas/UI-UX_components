@@ -60,9 +60,10 @@ function App() {
         />
       </div>
       <h1 className="titulo">EFECTO FALLING TEXT</h1>
+      <p className="titulo">Hay que recargar la página para que funcione</p>
       <FallingText
-        text={`React Bits is a library of animated and interactive React components designed to streamline UI development and simplify your workflow.`}
-        highlightWords={["React", "Bits", "animated", "components", "simplify"]}
+        text={`Esto es un texto de prueba para comprobar si funciona en React este componente. Mira como cae! Luego puedes manipular individualmente las words`}
+        highlightWords={["texto", "React", "componente", "Mira", "cae", "manipular", "words"]}
         highlightClass="highlighted"
         trigger="hover"
         backgroundColor="transparent"
@@ -72,6 +73,7 @@ function App() {
         mouseConstraintStiffness={0.9}
       />
       <h1 className="titulo">EFECTO LANYARD</h1>
+      <p className="titulo">Tarjetas totalmente interactivas</p>
       <div className="lanyard-group">
         <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
         <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
@@ -93,7 +95,8 @@ function App() {
           <p className="spotlight-card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur repudiandae soluta, quod magnam debitis officia corporis molestiae quaerat vitae numquam. In molestiae, culpa mollitia temporibus dolorum quia excepturi inventore.</p>
         </SpotlightCard>
       </div>
-      <h1 className="titulo">EFECTO SCROLL INFINITY</h1>
+      <h1 className="titulo">EFECTO iNFINITE</h1>
+      <p className="titulo">Menú totalmente funcional (drag y mover para que funcione)</p>
       <div style={{ height: '600px', position: 'relative' }}>
         <InfiniteMenu items={items} />
       </div>
